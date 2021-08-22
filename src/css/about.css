@@ -1,0 +1,13 @@
+.a-bg{
+    background-color: rgb(0, 0, 58);
+    padding-top: 2rem;
+  }
+
+  .a-bg-t{
+    background-color: rgb(42, 62, 128);
+    color: white;
+  }
+  
+  .a-card{
+    box-shadow: 0 0 5px 2px rgb(106, 228, 255);
+  }

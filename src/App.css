@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+* {
+  font-family: "Prompt", sans-serif;
+}
+.body-bg {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-neno-titel {
+  -webkit-text-fill-color: #ffe16a;
+  text-shadow: 3px 3px 3px #bf7f00, -3px -3px 8px #bf7f00;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-image {
+  background-color: #000c52;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url(image/h-bg.jpeg);
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero-area {
+  position: relative;
+  padding: 0px 0px 0px;
+  position: relative;
+  box-shadow: 0px 0px 20px 6px black;
+  background-color: #00000061;
+  overflow: hidden;
+}
+
+.boder-game {
+  border-bottom: #00a4f0 3px solid;
+  -webkit-box-shadow: -1px -1px 15px 20px #46ceff;
+  box-shadow: -1px -1px 15px 20px #46ceff;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-
-.App-link {
-  color: #61dafb;
+.card_image {
+  width: inherit;
+  height: inherit;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  width: 180px;
+  height: unset;
+  margin: 0;
+  box-shadow: 5px 5px 30px 7px rgb(0 0 0 / 25%),
+    -5px -5px 30px 7px rgb(0 0 0 / 22%);
+  cursor: pointer;
+  transition: 0.4s;
 }

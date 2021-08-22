@@ -1,0 +1,7 @@
+.f-bg{
+    background-image: linear-gradient(to top, #000000 0%, #313131 100%);
+    padding: 2rem 1rem 1rem 1rem;
+}
+.f-t-canter{
+    text-align: right;
+}

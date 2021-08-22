@@ -1,0 +1,23 @@
+.p-text {
+  text-align: center;
+  color: white;
+}
+
+.p-img {
+  width: 100%;
+  height: auto;
+}
+
+.p-service {
+  box-shadow: 0 0 0px 2px rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+
+.p-box {
+  box-shadow: 0 0 10px 3px rgb(0, 229, 255);
+}
+
+.p-button {
+  box-shadow: 0 0 0px 2px rgb(255, 255, 255);
+  border-radius: 2rem;
+}
