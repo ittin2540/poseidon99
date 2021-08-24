@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Button, Container, Navbar, Nav, Form } from "react-bootstrap";
 import { Link, Route } from "react-router-dom";
 
 import Home from "./body";
@@ -14,85 +14,42 @@ import Footer from "./footer";
 function navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg  bg-light navbar-dark bg-dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <div className="collapse navbar-collapse n-space" id="navbarText">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <Link className="nav-link m-1" to="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link m-1" to="/sport">
-                  กีฬา
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link m-1" to="/casino">
-                  คาสิโน
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link m-1" to="/slots">
-                  สล็อต
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link m-1" to="/lottery">
-                  หวย
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link m-1" to="/gamecock">
-                  ไก่ชน
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link m-1"
-                  to="/promotion"
-                  href="#promotion"
-                >
-                  โปรโมชั่น
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link m-1" href="/login">
-                  LOGIN
-                </Link>
-              </li>
-            </ul>
-            <span className="navbar-text" style={{ textAlign: "right" }}>
+          <Navbar.Brand href="#home">Poseidon99</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/sport">กีฬา</Nav.Link>
+              <Nav.Link href="/casino">คาสิโน</Nav.Link>
+              <Nav.Link href="/slots">สล็อต</Nav.Link>
+              <Nav.Link href="/lottery">หวย</Nav.Link>
+              <Nav.Link href="/gamecock">ไก่ชน</Nav.Link>
+              <Nav.Link href="/promotion">โปรโมชั่น</Nav.Link>
+              <Nav.Link href="/login">LOGIN</Nav.Link>
+            </Nav>
+            <Form className="d-flex" style={{ justifyContent: "center" }}>
+              {" "}
               <Button
                 className="n-boxshadow m-1"
-                variant="outline-light"
+                variant="outline-success"
                 href="#"
               >
                 สมัครสมาชิก
               </Button>
               <Button
                 className="n-boxshadow m-1"
-                variant="outline-light"
+                variant="outline-success"
                 href="#"
               >
                 เข้าสู่ระบบ
               </Button>
-            </span>
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="true"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            </Form>
+          </Navbar.Collapse>
         </Container>
-      </nav>
+      </Navbar>
+
       <Route exact path="/">
         <Home />
         <Footer />
