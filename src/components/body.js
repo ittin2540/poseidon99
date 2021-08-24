@@ -10,13 +10,13 @@ import { Container } from 'react-bootstrap';
 function body() {
     return (
         <div className="body-bg">
-            <Container>
+            {/* <Container> */}
                 <Home />
                 <About />
                 <Promotion />
                 <Game />
                 <Contact />
-            </Container>
+            {/* </Container> */}
         </div>
     );
 }
