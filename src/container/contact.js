@@ -6,7 +6,7 @@ function contact() {
         <div style={{ paddingTop: "1rem", paddingBottom: "2rem" }}>
             <img className="g-img" src="image/c-line.png" alt="team meeting" />
             <Container>
-                <div className="row p-text pt-2" style={{ color: "white" }}>
+                <div className="row p-text pt-2 m-0" style={{ color: "white" }}>
                     <div className="col-3 p-2">
                         <img className="c-img" src="image/WMCasino.png" alt="team meeting" />
                         {/* <h4>WM Casino</h4> */}

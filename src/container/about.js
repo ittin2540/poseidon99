@@ -5,7 +5,7 @@ function about() {
     return (
         <div className="a-bg">
             <div className="container pb-4">
-                <div className="row">
+                <div className="row m-0">
                     <div className="col-lg-6">
                         <div className="row m-0 p-0">
                             <div className="col-4">

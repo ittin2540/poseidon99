@@ -3,7 +3,7 @@ import React from 'react';
 function game() {
     return (
         <div className="p-text container">
-            <div className="row">
+            <div className="row m-0">
                 <div className="col-3">
                     <img className="g-img" src="image/g-baccarat.jpg" alt="team meeting" />
                 </div>

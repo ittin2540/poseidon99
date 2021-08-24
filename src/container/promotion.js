@@ -5,7 +5,7 @@ function promotion() {
     return (
         <Container>
             <div className="p-text" style={{ paddingTop: "1rem" }}>
-                <div className="row">
+                <div className="row m-0">
                     <div className="col-12">
                         <h2 className="text-neno-titel">หลากหลายความสนุก</h2>
                         <p>UFAPOSEIDON99 คาสิโน บาคาร่า เสือมังกร ไฮโล ดีลเลอร์สาวสวยสุดเซ็กซี่กับเกมส์คาสิโนออนไลน์สุฮอต<br />
@@ -17,22 +17,22 @@ function promotion() {
                         </p>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-4 p-3">
+                <div className="row m-0">
+                    <div className="col-lg-4 p-3 m-0">
                         <div className="p-button">
                             {/* <Button variant="outline-light"> */}
                             <h4 className="p-3">ทางเข้าเล่น</h4>
                             {/* </Button> */}
                         </div>
                     </div>
-                    <div className="col-lg-4 p-3">
+                    <div className="col-lg-4 p-3 m-0">
                         <div className="p-button">
                             {/* <Button variant="outline-light"> */}
                             <h4 className="p-3">ฝากถอน อัตโนมัติ</h4>
                             {/* </Button> */}
                         </div>
                     </div>
-                    <div className="col-lg-4 p-3">
+                    <div className="col-lg-4 p-3 m-0">
                         <div className="p-button">
                             {/* <Button variant="outline-light"> */}
                             <h4 className="p-3">โปรโมชั่น</h4>
@@ -40,7 +40,7 @@ function promotion() {
                         </div>
                     </div>
                 </div>
-                <div className="row p-2">
+                <div className="row p-2 m-0">
                     <div className="col-xl-6">
                         <p>
                             สนุกไปกับความคมชัดระดับ Full HD<br />
@@ -91,7 +91,7 @@ function promotion() {
                         <img className="p-img p-2" src="image/demo-game.png" alt="team meeting" />
                     </div>
                 </div>
-                <div className="row" id="promotion">
+                <div className="row m-0" id="promotion">
                     <div className="col-4" style={{ textAlign: "right" }}>
                         <img className="p-box" style={{ width: "100%", height: "auto" }} src="image/p-demopromotion.png" alt="team meeting" />
                     </div>
