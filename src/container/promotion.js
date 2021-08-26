@@ -1,7 +1,18 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+// import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 
 function promotion() {
+
+    const fadeImages = [
+        'image/p-01.jpg',
+        'image/p-02.jpg',
+        'image/p-03.jpg',
+        'image/p-04.jpg',
+        'image/p-05.jpg'
+    ];
+
     return (
         <Container>
             <div className="p-text" style={{ paddingTop: "1rem" }}>
@@ -91,18 +102,20 @@ function promotion() {
                         <img className="p-img p-2" src="image/demo-game.png" alt="team meeting" />
                     </div>
                 </div>
+                {/* <Fade> */}
                 <div className="row m-0" id="promotion">
-                    <div className="col-4" style={{ textAlign: "right" }}>
-                        <img className="p-box" style={{ width: "100%", height: "auto" }} src="image/p-demopromotion.png" alt="team meeting" />
+                    <div className="col-4 each-fade" style={{ textAlign: "right" }}>
+                        <img className="p-box" style={{ width: "100%", height: "auto" }} src={fadeImages[0]} alt="team meeting" />
                     </div>
-                    <div className="col-4">
-                        <img className="p-box" style={{ width: "100%", height: "auto" }} src="image/p-demopromotion.png" alt="team meeting" />
+                    <div className="col-4 each-fade">
+                        <img className="p-box" style={{ width: "100%", height: "auto" }} src={fadeImages[1]} alt="team meeting" />
                     </div>
-                    <div className="col-4" style={{ textAlign: "left" }}>
-                        <img className="p-box" style={{ width: "100%", height: "auto" }} src="image/p-demopromotion.png" alt="team meeting" />
+                    <div className="col-4 each-fade" style={{ textAlign: "left" }}>
+                        <img className="p-box" style={{ width: "100%", height: "auto" }} src={fadeImages[2]} alt="team meeting" />
                     </div>
                 </div>
-                <h3 className="p-4 text-neno-titel"> POSEIDON PROMOTION</h3>
+                {/* </Fade> */}
+                <h2 className="p-4 text-neno-titel"> POSEIDON PROMOTION</h2>
             </div>
         </Container>
     );

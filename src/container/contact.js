@@ -3,8 +3,8 @@ import { Container } from "react-bootstrap";
 
 function contact() {
     return (
-        <div style={{ paddingTop: "1rem", paddingBottom: "2rem" }}>
-            <img className="g-img" src="image/c-line.png" alt="team meeting" />
+        <div style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
+            <img className="g-img" src="image/c-line.jpeg" alt="team meeting" />
             <Container>
                 <div className="row p-text pt-2 m-0" style={{ color: "white" }}>
                     <div className="col-3 p-2">

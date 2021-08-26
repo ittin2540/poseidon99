@@ -2,13 +2,13 @@ import React from "react";
 
 import './App.css';
 import Navbar from './components/navbar';
-import Body from './components/body';
+// import Body from './components/body';
 
-import Sport from './container/sport';
-import Casino from './container/casino';
-import Slots from './container/slots';
-import Lottery from './container/lottery';
-import Gamecock from './container/gamecock';
+// import Sport from './container/sport';
+// import Casino from './container/casino';
+// import Slots from './container/slots';
+// import Lottery from './container/lottery';
+// import Gamecock from './container/gamecock';
 
 // import Footer from './components/footer';
 
